@@ -293,7 +293,7 @@ function addArtist(array){
     bio: "lorem ipsumlorem ipsum lorem",
    }
    array.push(object)
-   return artists
+   return array
   
   }
   addArtist(artists)
@@ -307,7 +307,7 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array){
-  return [artists[0].name, artists[4].name, artists[5].name, artists[8].name, artists[9].name, artists[10].name, artists[11].name, artists[12].name, artists[13].name, artists[14].name, artists[15].name, artists[16].name, artists[17].name, artists[19].name];
+  return [array[0].name, array[4].name, array[5].name, array[8].name, array[9].name, array[10].name, array[11].name, array[12].name, array[13].name, array[14].name, array[15].name, array[16].name, array[17].name, array[19].name];
 }
 
 lotsOfArt(artists)
